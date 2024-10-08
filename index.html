@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="dk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nippon måltidskasser</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+		<script src="https://unpkg.com/split-type"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis"></script>
+		<script src="js.js" defer></script>
+	</head>
+	<body>
+		<!-- Desktop header -->
+		<div class="nav-container">
+			<nav class="navbar">
+				<div class="logo-links">
+					<a href="index.html"
+						><div class="company-name">
+							<img src="/images/nipponLogo.svg" alt="df-logo" /></div
+					></a>
+					<a href="produktside.html" class="stagger-link">
+						<span class="stagger-link-text">Hvordan virker det</span>
+					</a>
+					<a href="vision.html" class="stagger-link">
+						<span class="stagger-link-text">Retter</span>
+					</a>
+					<a href="brygning.html" class="stagger-link">
+						<span class="stagger-link-text">Måltidskasser</span>
+					</a>
+				</div>
+				<div class="right-links">
+					<img src="/images/login.svg" alt="">
+					<a href="produktside.html" class="stagger-link">
+						<span>Login</span>
+					</a>
+					<img src="images/basket.svg" alt="">
+					<a href="vision.html" class="stagger-link">
+						<span>Kurv</span>
+					</a>
+				</div>
+			</nav>
+		</div>
+
+		<section class="mockupherosec">
+			<img class="heroimage" src="/images/herosec.svg" alt="herosec" />
+			<img class="scrolldish" src="/images/dishfly.png" alt="" />
+		</section>
+
+		<section class="mockupmaaltidssed">
+			<img src="/images/maaltidssec.svg" alt="maaltidsec" />
+		</section>
+
+		<!--Animation/javascript udvalg af figma prototype-->
+		<h1 class="mad-car-head">Populærer retter denne måned</h1>
+		<section class="mad-car">
+			<div class="arrow-left">
+				<img
+					src="/images/Icon-Arrow-Left.svg"
+					alt="arrow"
+					class="arrow arrow-left" />
+			</div>
+			<div class="mad-car-con">
+				<div class="madkort-wrapper">
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/mad20.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Kaloriefattig</h3>
+						<h1>Hiyayakko</h1>
+						<h2>Kold tofu serveret med soyasauce, ingefær og forårsløg.</h2>
+					</div>
+					</div>
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff1.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Proteinrig</h3>
+						<h1>Tonkatsu</h1>
+						<h2>Paneret og friteret svinekotelet med tonkatsu-sauce.</h2>
+					</div>
+					</div>
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff2.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Fiber-rig</h3>
+						<h1>Hijiki Nimono</h1>
+						<h2>Sauteret hijiki-tang med gulerødder og tofu.</h2>
+					</div>
+					</div>
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff3.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Fisk</h3>
+						<h1>Saba Shioyaki</h1>
+						<h2>Grillet makrel krydret med salt.</h2>
+					</div>
+					</div>
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff4.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Kaloriefattig</h3>
+						<h1>Saba Shioyaki</h1>
+						<h2>Let og luftig pandekage</h2>
+					</div>
+					</div>
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff5.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Fisk</h3>
+						<h1>Chirashi Sushi</h1>
+						<h2>
+							Sushiris toppet med et udvalg af rå fisk, skaldyr og grøntsager.
+						</h2>
+						</div>
+					</div>
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff6.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Kaloriefattig</h3>
+						<h1>Kabocha Nimono</h1>
+						<h2>Simret græskar i en let soyasauce-baseret bouillon.</h2>
+					</div>
+					</div>
+				
+
+					<div class="madkort">
+						<div class="madbilcon">
+							<img src="/images/madff7.jpg" alt="mad1" />
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
+							</svg>
+						</div>
+						<div class="card-text">
+						<h3>Proteinrig</h3>
+						<h1>Yakitori</h1>
+						<h2>Grillede kyllingespyd med tare- eller saltsauce.</h2>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="arrow-right">
+				<img
+					src="/images/Icon-Arrow-Right.svg"
+					alt=""
+					class="arrow arrow-right" />
+			</div>
+		</section>
+
+		<section>
+			<img class="logosection" src="images/logoersec.svg" alt="">
+		</section>
+
+		<section>
+			<img class="footerpic" src="images/footer.svg" alt="">
+		</section>
+	</body>
+</html>
