@@ -1,0 +1,208 @@
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('./font/ppneuemontreal-thin.otf') format('opentype');
+    font-weight: 300; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('./font/ppneuemontreal-medium.otf') format('opentype');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('./font/ppneuemontreal-bold.otf') format('opentype');
+    font-weight: bold; 
+    font-style: normal;
+}
+body {
+    font-family: 'PP Neue Montreal', sans-serif;
+    background-color: #f7f7f4;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+.menu-vælger {
+    background-color: #FEEEEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%; /* Bredden af sektionen */
+    margin: 20px auto; /* placerer min sektion */
+    border-bottom-left-radius: 20px; /* afrunder nederst til venstre */
+    border-bottom-right-radius: 20px; /* afrunder nederst til højre */
+
+}
+
+
+h2 {
+    font-family: 'PP Neue Montreal', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+
+}
+
+.menu-vælger h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.galleri {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* mellemrum mellem billederne */
+   
+}
+
+
+
+.galleri img {
+    width: 120px; /* størrelsen på billedet */
+    height: auto; /* bevarer billedets proportioner */
+    margin-bottom: 20px; /* laver afstand fra billederne til nederste kant */
+}
+
+/* Stil til tallerken-sektionen */
+.tallerken {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; /* Sikrer, at overlay-billedet placeres korrekt ovenpå */
+}
+
+/* Stil til tallerken-billedet */
+#hovedtallerken {
+    max-width: 25%; 
+    height: auto;
+}
+
+/* Stil til tallerkenlag (maderetten) */
+#tallerkenlag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%; /* Gør maderetten lidt større */
+    display: none; /* Skjult indtil der klikkes på et madbillede */
+    z-index: 1; /* Sørger for, at maderetten vises ovenpå tallerkenen */
+}
+
+.ingrediens ul {
+    list-style-type: none; /* Fjerner prikker */
+    padding-left: 0;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.opskrift ol {
+    list-style-type: decimal; /* Bevarer talrækkefølgen */
+    padding-left: 20px; /* Justerer indrykning efter behov */
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    width: 250px;
+}
+    
+
+
+.lister {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.ingrediens {
+    margin-right: 100px; /* Tilføjer afstand til højre for ingredienssektionen */
+}
+
+.opskrift {
+    margin-left: 100px; /* Tilføjer afstand til venstre for opskriftssektionen */
+    
+}
+
+h3 {
+    padding: 10px 0; /* Tilføjer lidt luft mellem tekst og linjer */
+    border-top: 1px solid #333; /* Linje over overskriften */
+    border-bottom: 1px solid #333; /* Linje under overskriften */
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.valgmuligheder {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Afstand mellem de to fieldset-sektioner */
+    margin-top: 50px;
+
+}
+
+
+
+
+fieldset {
+    border: none; /* Fjern standardrammen for fieldset */
+    text-align: center;
+    padding: 0 20px; /* Ensartet padding på begge sider */
+    text-align: center;
+}
+
+
+fieldset:first-child {
+    border-right: 1px solid #333; /* Lodret streg mellem sektionerne */
+    
+    padding-right: 100px; /* Justér efter behov */
+}
+
+#fieldset:first-child {
+    border-right: 1px solid #333; /* Lodret streg mellem sektionerne */
+    
+    padding-right: 100px; /* Justér efter behov */
+}
+
+#PAD-KNAP {
+}
+
+.pad-bot {
+    padding-bottom: 100px;
+}
+
+
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+
+.valg-knap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #BC002D;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px;
+    
+   
+}
+
