@@ -1,23 +1,3 @@
-/*
-
-//Animate mit logo i hero section (Forældet bruger scrolltrigger)
-
-const heroLogo = document.getElementById("heroLogo"); //Finde mit logo id og target
-
-//Fortæller at når musen går hen over billedet, skal animate classen tilføjes, som indeholder min animation
-
-heroLogo.addEventListener("mouseover", () => {
-	heroLogo.classList.add("animate");
-});
-
-//Fortæller at når animationen er færdig, skal animate classen fjernes fra mit logo ID
-
-heroLogo.addEventListener("animationend", () => {
-	heroLogo.classList.remove("animate");
-});
-
-*/
-
 //Animation stagger link effect (Bruger gsap og splittext js libs)
 
 const staggerLinks = document.querySelectorAll(".stagger-link"); //Jeg vælger alle class med stagger link i mit document og gør dem til en variable, så jeg kan target dem i JS

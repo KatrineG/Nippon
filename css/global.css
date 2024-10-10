@@ -34,6 +34,8 @@ body {
 	height: auto;
 }
 
+/* Navigations styling */
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -93,6 +95,8 @@ nav {
 	display: inline-block;
 }
 
+/* Hero styling */
+
 .mockupherosec {
 	display: block;
 	position: relative;
@@ -116,6 +120,8 @@ nav {
 	height: auto;
 	object-fit: cover;
 }
+
+/* Slider styling */
 
 .mockupmaaltidssed {
 	margin-top: 8vh;
@@ -293,6 +299,8 @@ nav {
 .arrow-right:hover img {
 	opacity: 0;
 }
+
+/* Værdier og footer styling */
 
 .logosection {
 	width: 80vw;
